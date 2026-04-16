@@ -86,7 +86,7 @@ class SistemPakarKomputer:
         if hasil_diagnosa:
             pesan = "Hasil Diagnosa:\n\n"
             for nama, solusi in hasil_diagnosa:
-                pesan += f"⚠️ {nama}\nSolusi: {solusi}\n\n"
+                pesan += f" {nama}\nSolusi: {solusi}\n\n"
         else:
             pesan = "Gejala tidak cocok dengan data kerusakan manapun."
             
